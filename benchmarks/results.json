@@ -1,0 +1,229 @@
+{
+  "metadata": {
+    "utc": "2026-11-25T17:51:01.159621+00:00",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "processor": "",
+    "machine": "x86_64",
+    "repeats": 5,
+    "measurement": "median of repeated wall-clock perf_counter_ns, includes format/KDF overhead; no warm-up; non-production benchmark"
+  },
+  "results": [
+    {
+      "family": "AES",
+      "algorithm": "AES-256-GCM",
+      "size_bytes": 1024,
+      "key_bits": 256,
+      "operation": "encrypt",
+      "median_ms": 0.0225
+    },
+    {
+      "family": "AES",
+      "algorithm": "AES-256-GCM",
+      "size_bytes": 1024,
+      "key_bits": 256,
+      "operation": "decrypt",
+      "median_ms": 0.0208
+    },
+    {
+      "family": "AES",
+      "algorithm": "AES-256-CBC",
+      "size_bytes": 1024,
+      "key_bits": 256,
+      "operation": "encrypt",
+      "median_ms": 0.033
+    },
+    {
+      "family": "AES",
+      "algorithm": "AES-256-CBC",
+      "size_bytes": 1024,
+      "key_bits": 256,
+      "operation": "decrypt",
+      "median_ms": 0.0397
+    },
+    {
+      "family": "AES",
+      "algorithm": "AES-256-GCM",
+      "size_bytes": 65536,
+      "key_bits": 256,
+      "operation": "encrypt",
+      "median_ms": 0.0362
+    },
+    {
+      "family": "AES",
+      "algorithm": "AES-256-GCM",
+      "size_bytes": 65536,
+      "key_bits": 256,
+      "operation": "decrypt",
+      "median_ms": 0.0327
+    },
+    {
+      "family": "AES",
+      "algorithm": "AES-256-CBC",
+      "size_bytes": 65536,
+      "key_bits": 256,
+      "operation": "encrypt",
+      "median_ms": 0.2713
+    },
+    {
+      "family": "AES",
+      "algorithm": "AES-256-CBC",
+      "size_bytes": 65536,
+      "key_bits": 256,
+      "operation": "decrypt",
+      "median_ms": 0.1144
+    },
+    {
+      "family": "AES",
+      "algorithm": "AES-256-GCM",
+      "size_bytes": 1048576,
+      "key_bits": 256,
+      "operation": "encrypt",
+      "median_ms": 0.5099
+    },
+    {
+      "family": "AES",
+      "algorithm": "AES-256-GCM",
+      "size_bytes": 1048576,
+      "key_bits": 256,
+      "operation": "decrypt",
+      "median_ms": 0.2894
+    },
+    {
+      "family": "AES",
+      "algorithm": "AES-256-CBC",
+      "size_bytes": 1048576,
+      "key_bits": 256,
+      "operation": "encrypt",
+      "median_ms": 2.5494
+    },
+    {
+      "family": "AES",
+      "algorithm": "AES-256-CBC",
+      "size_bytes": 1048576,
+      "key_bits": 256,
+      "operation": "decrypt",
+      "median_ms": 1.7382
+    },
+    {
+      "family": "RSA",
+      "algorithm": "RSA-2048-OAEP/PSS",
+      "size_bytes": 32,
+      "key_bits": 2048,
+      "operation": "keygen",
+      "median_ms": 84.9918
+    },
+    {
+      "family": "RSA",
+      "algorithm": "RSA-2048-OAEP/PSS",
+      "size_bytes": 32,
+      "key_bits": 2048,
+      "operation": "encrypt",
+      "median_ms": 0.0284
+    },
+    {
+      "family": "RSA",
+      "algorithm": "RSA-2048-OAEP/PSS",
+      "size_bytes": 32,
+      "key_bits": 2048,
+      "operation": "decrypt",
+      "median_ms": 0.3887
+    },
+    {
+      "family": "RSA",
+      "algorithm": "RSA-2048-OAEP/PSS",
+      "size_bytes": 32,
+      "key_bits": 2048,
+      "operation": "sign",
+      "median_ms": 0.4646
+    },
+    {
+      "family": "RSA",
+      "algorithm": "RSA-2048-OAEP/PSS",
+      "size_bytes": 32,
+      "key_bits": 2048,
+      "operation": "verify",
+      "median_ms": 0.0313
+    },
+    {
+      "family": "RSA",
+      "algorithm": "RSA-3072-OAEP/PSS",
+      "size_bytes": 32,
+      "key_bits": 3072,
+      "operation": "keygen",
+      "median_ms": 153.5541
+    },
+    {
+      "family": "RSA",
+      "algorithm": "RSA-3072-OAEP/PSS",
+      "size_bytes": 32,
+      "key_bits": 3072,
+      "operation": "encrypt",
+      "median_ms": 0.0631
+    },
+    {
+      "family": "RSA",
+      "algorithm": "RSA-3072-OAEP/PSS",
+      "size_bytes": 32,
+      "key_bits": 3072,
+      "operation": "decrypt",
+      "median_ms": 1.3093
+    },
+    {
+      "family": "RSA",
+      "algorithm": "RSA-3072-OAEP/PSS",
+      "size_bytes": 32,
+      "key_bits": 3072,
+      "operation": "sign",
+      "median_ms": 1.0164
+    },
+    {
+      "family": "RSA",
+      "algorithm": "RSA-3072-OAEP/PSS",
+      "size_bytes": 32,
+      "key_bits": 3072,
+      "operation": "verify",
+      "median_ms": 0.0694
+    },
+    {
+      "family": "RSA",
+      "algorithm": "RSA-4096-OAEP/PSS",
+      "size_bytes": 32,
+      "key_bits": 4096,
+      "operation": "keygen",
+      "median_ms": 971.9838
+    },
+    {
+      "family": "RSA",
+      "algorithm": "RSA-4096-OAEP/PSS",
+      "size_bytes": 32,
+      "key_bits": 4096,
+      "operation": "encrypt",
+      "median_ms": 0.0925
+    },
+    {
+      "family": "RSA",
+      "algorithm": "RSA-4096-OAEP/PSS",
+      "size_bytes": 32,
+      "key_bits": 4096,
+      "operation": "decrypt",
+      "median_ms": 3.7181
+    },
+    {
+      "family": "RSA",
+      "algorithm": "RSA-4096-OAEP/PSS",
+      "size_bytes": 32,
+      "key_bits": 4096,
+      "operation": "sign",
+      "median_ms": 2.4386
+    },
+    {
+      "family": "RSA",
+      "algorithm": "RSA-4096-OAEP/PSS",
+      "size_bytes": 32,
+      "key_bits": 4096,
+      "operation": "verify",
+      "median_ms": 0.1028
+    }
+  ]
+}
