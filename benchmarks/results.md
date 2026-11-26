@@ -1,40 +1,40 @@
 # Вимірювання продуктивності AES та RSA
 
-Дата UTC: 2026-11-25T17:51:01.159621+00:00
-Python: 3.13.5
-ОС: Linux-6.18.57-x86_64-with-glibc2.41
+Дата UTC: 2026-11-26T18:09:00.399273+00:00
+Python: 3.14.10
+ОС: Linux-7.2.15+kali-amd64-x86_64-with-glibc2.43
 Процесор (доступна мітка): не визначено
-Повторів для медіани: 5
+Повторів для медіани: 3
 
 | Алгоритм | Обсяг (байт) | Операція | Медіана (мс) |
 |---|---:|---|---:|
-| AES-256-GCM | 1024 | encrypt | 0.0225 |
-| AES-256-GCM | 1024 | decrypt | 0.0208 |
-| AES-256-CBC | 1024 | encrypt | 0.0330 |
-| AES-256-CBC | 1024 | decrypt | 0.0397 |
-| AES-256-GCM | 65536 | encrypt | 0.0362 |
-| AES-256-GCM | 65536 | decrypt | 0.0327 |
-| AES-256-CBC | 65536 | encrypt | 0.2713 |
-| AES-256-CBC | 65536 | decrypt | 0.1144 |
-| AES-256-GCM | 1048576 | encrypt | 0.5099 |
-| AES-256-GCM | 1048576 | decrypt | 0.2894 |
-| AES-256-CBC | 1048576 | encrypt | 2.5494 |
-| AES-256-CBC | 1048576 | decrypt | 1.7382 |
-| RSA-2048-OAEP/PSS | 32 | keygen | 84.9918 |
-| RSA-2048-OAEP/PSS | 32 | encrypt | 0.0284 |
-| RSA-2048-OAEP/PSS | 32 | decrypt | 0.3887 |
-| RSA-2048-OAEP/PSS | 32 | sign | 0.4646 |
-| RSA-2048-OAEP/PSS | 32 | verify | 0.0313 |
-| RSA-3072-OAEP/PSS | 32 | keygen | 153.5541 |
-| RSA-3072-OAEP/PSS | 32 | encrypt | 0.0631 |
-| RSA-3072-OAEP/PSS | 32 | decrypt | 1.3093 |
-| RSA-3072-OAEP/PSS | 32 | sign | 1.0164 |
-| RSA-3072-OAEP/PSS | 32 | verify | 0.0694 |
-| RSA-4096-OAEP/PSS | 32 | keygen | 971.9838 |
-| RSA-4096-OAEP/PSS | 32 | encrypt | 0.0925 |
-| RSA-4096-OAEP/PSS | 32 | decrypt | 3.7181 |
-| RSA-4096-OAEP/PSS | 32 | sign | 2.4386 |
-| RSA-4096-OAEP/PSS | 32 | verify | 0.1028 |
+| AES-256-GCM | 1024 | encrypt | 0.0475 |
+| AES-256-GCM | 1024 | decrypt | 0.0269 |
+| AES-256-CBC | 1024 | encrypt | 0.0626 |
+| AES-256-CBC | 1024 | decrypt | 0.0386 |
+| AES-256-GCM | 65536 | encrypt | 0.0903 |
+| AES-256-GCM | 65536 | decrypt | 0.0997 |
+| AES-256-CBC | 65536 | encrypt | 0.3865 |
+| AES-256-CBC | 65536 | decrypt | 0.2552 |
+| AES-256-GCM | 1048576 | encrypt | 1.6891 |
+| AES-256-GCM | 1048576 | decrypt | 0.3938 |
+| AES-256-CBC | 1048576 | encrypt | 6.3096 |
+| AES-256-CBC | 1048576 | decrypt | 2.9072 |
+| RSA-2048-OAEP/PSS | 32 | keygen | 32.7094 |
+| RSA-2048-OAEP/PSS | 32 | encrypt | 0.1054 |
+| RSA-2048-OAEP/PSS | 32 | decrypt | 0.9208 |
+| RSA-2048-OAEP/PSS | 32 | sign | 0.9409 |
+| RSA-2048-OAEP/PSS | 32 | verify | 0.0384 |
+| RSA-3072-OAEP/PSS | 32 | keygen | 507.8125 |
+| RSA-3072-OAEP/PSS | 32 | encrypt | 0.0950 |
+| RSA-3072-OAEP/PSS | 32 | decrypt | 2.9390 |
+| RSA-3072-OAEP/PSS | 32 | sign | 2.8741 |
+| RSA-3072-OAEP/PSS | 32 | verify | 0.0677 |
+| RSA-4096-OAEP/PSS | 32 | keygen | 449.5486 |
+| RSA-4096-OAEP/PSS | 32 | encrypt | 0.1919 |
+| RSA-4096-OAEP/PSS | 32 | decrypt | 6.5231 |
+| RSA-4096-OAEP/PSS | 32 | sign | 7.2947 |
+| RSA-4096-OAEP/PSS | 32 | verify | 0.1911 |
 
 ## Інтерпретація
 
